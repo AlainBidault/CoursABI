@@ -13,19 +13,17 @@ namespace ConsoleApp1
             
             Console.WriteLine("bonjour bonjour");
             Console.ReadKey();
-            /*
+            
             MemoryDessin partie = new MemoryDessin(4);
             partie.Add("Bernard");
             partie.Add("Michel");
             partie.Jouer();
-            */
-            /*
-            Memory32 partie = new Memory32();
-            partie.Add("Bernard");
-            partie.Jouer();*/
-            /*
-            PlusOuMoins partie = new PlusOuMoins();
-            partie.Jouer();*/
+            
+            Memory32 partie1 = new Memory32();
+            partie1.Add("Bernard");
+            partie1.Jouer();
+            PlusOuMoins partie2 = new PlusOuMoins();
+            partie2.Jouer();
         }
     }
 }
